@@ -1,0 +1,19 @@
+package program57;
+public class Program57 { 
+    public static void main(String[] args) {
+        int arr[]= {1,2,3};
+        int sum=0,i;
+        try{
+            for(i=0;i<5;i++){ 
+            sum=arr[i];
+            } 
+        }
+         catch(ArrayIndexOutOfBoundsException e){
+              System.out.println(e); 
+         } 
+    } 
+}
+Output:
+run:
+java.lang.ArrayIndexOutOfBoundsException: 3
+BUILD SUCCESSFUL (total time: 0 seconds)
